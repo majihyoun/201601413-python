@@ -1,6 +1,6 @@
 import turtle as t
 import random
-t.shape ("turtle")
+t.shape ("circle")
 t.up()
 t.goto(-250,-250)
 t.down()
@@ -15,7 +15,7 @@ t.up()
 t.home()
 
 
-a=random.randint(0,45)
+a=random.randint(0,360)
 t.setheading(a)
 while -250< t.xcor() <=250  and -250< t.ycor() <=250 :
     t.fd(1)
